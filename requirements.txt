@@ -3,3 +3,7 @@ gunicorn
 yfinance
 pandas
 requests
+matplotlib
+mplfinance
+Pillow
+google-generativeai
