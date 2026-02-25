@@ -2,8 +2,10 @@ Flask
 gunicorn
 yfinance
 pandas
+numpy
 requests
 matplotlib
 mplfinance
 Pillow
 google-generativeai
+pytz
