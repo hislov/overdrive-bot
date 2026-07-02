@@ -1,0 +1,16 @@
+{
+  "// 설명": "이 내용을 Claude Desktop 설정 파일 claude_desktop_config.json 의 mcpServers 항목에 넣으세요.",
+  "// macOS 경로": "~/Library/Application Support/Claude/claude_desktop_config.json",
+  "// Windows 경로": "%APPDATA%\\Claude\\claude_desktop_config.json",
+  "// 주의": "args 의 경로를 rhino_mcp_server.py 의 실제 절대경로로 바꾸세요. python 이 PATH 에 없으면 전체 경로(예: python3, /usr/bin/python3)를 쓰세요.",
+  "mcpServers": {
+    "rhino": {
+      "command": "python",
+      "args": ["/ABSOLUTE/PATH/TO/rhino_claude/rhino_mcp_server.py"],
+      "env": {
+        "RHINO_HOST": "127.0.0.1",
+        "RHINO_PORT": "1999"
+      }
+    }
+  }
+}

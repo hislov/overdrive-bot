@@ -1,0 +1,9 @@
+# Rhino <-> Claude MCP 서버 의존성
+#
+# 이 파일은 rhino_mcp_server.py(= Claude 쪽에서 실행되는 프로세스)에만 필요합니다.
+# rhino_listener.py 는 Rhino 8 내장 Python 에서 실행되므로 별도 설치가 없습니다
+# (rhinoscriptsyntax / RhinoCommon 은 Rhino 에 기본 포함).
+#
+# 설치:  pip install -r requirements.txt   (Python 3.10 이상 권장)
+
+mcp[cli]>=1.4.0
